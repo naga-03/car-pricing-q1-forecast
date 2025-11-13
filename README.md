@@ -75,20 +75,19 @@ q1 analysis/
 ├── car_pricing_q1_forecast.ipynb # Analysis notebook
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # Project documentation
-├── DATASET_SETUP.md             # Dataset setup guide
-├── GIT_SETUP.md                 # Git/GitHub setup instructions
-├── QUICK_START.md               # Quick start guide
+├── LICENSE                        # MIT License
 └── .gitignore                   # Git ignore rules
 ```
 
 ## Dataset Note
-The dataset file (`car_pricing_dataset.csv`) is ~84 MB. For Git repositories:
-- **Option 1**: Use Git LFS (recommended for files > 50MB)
-- **Option 2**: Host externally and provide download link
-- **Option 3**: Include directly if repository allows large files
-
-See `DATASET_SETUP.md` for detailed instructions.
+The dataset file (`car_pricing_dataset.csv`) is ~84 MB and is tracked using Git LFS for efficient version control.
 
 ## License
-[Specify License]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**MIT License Summary:**
+- ✅ Free to use for personal and commercial projects
+- ✅ Can modify and distribute
+- ✅ Only requires attribution (copyright notice)
+- ✅ No warranty provided
 
