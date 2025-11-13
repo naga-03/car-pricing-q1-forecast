@@ -71,12 +71,13 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 ## Project Structure
 ```
 q1 analysis/
-├── car_pricing_dataset.csv      # Main dataset (~84 MB)
-├── car_pricing_q1_forecast.ipynb # Analysis notebook
-├── requirements.txt              # Python dependencies
-├── README.md                     # Project documentation
-├── LICENSE                        # MIT License
-└── .gitignore                   # Git ignore rules
+├── car_pricing_q1_forecast.ipynb  # Main analysis notebook
+├── car_pricing_dataset.csv         # Dataset (84 MB, tracked with Git LFS)
+├── requirements.txt                # Python dependencies
+├── README.md                       # Project documentation
+├── LICENSE                         # MIT License
+├── .gitignore                      # Git ignore rules
+└── .gitattributes                  # Git LFS configuration
 ```
 
 ## Dataset Note
