@@ -31,4 +31,4 @@ EXPOSE 8501
 HEALTHCHECK CMD curl --fail http://localhost:8501/api/health || exit 1
 
 # Launch production server
-CMD ["uvicorn", "app.server:app", "--host", "0.0.0.0", "--port", "8501"]
+CMD ["sh", "-c", "uvicorn app.server:app --host 0.0.0.0 --port ${PORT:-8501}"]
