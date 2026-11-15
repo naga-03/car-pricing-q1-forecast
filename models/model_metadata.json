@@ -1,0 +1,178 @@
+{
+  "training_samples": 106411,
+  "intrinsic_models": {
+    "Linear Regression": {
+      "r2": 0.6525,
+      "mae": 3624.57,
+      "rmse": 5454.33,
+      "mape": 60.62
+    },
+    "Ridge Regression": {
+      "r2": 0.6525,
+      "mae": 3623.84,
+      "rmse": 5454.29,
+      "mape": 60.58
+    },
+    "XGBoost Regressor": {
+      "r2": 0.8029,
+      "mae": 2505.06,
+      "rmse": 4108.13,
+      "mape": 25.89
+    }
+  },
+  "full_models": {
+    "Ridge with MMR": {
+      "r2": 0.9717,
+      "mae": 1041.76,
+      "rmse": 1555.61,
+      "mape": 14.76
+    },
+    "XGBoost with MMR": {
+      "r2": 0.9713,
+      "mae": 924.31,
+      "rmse": 1566.4,
+      "mape": 12.51
+    }
+  },
+  "best_intrinsic_model": "XGBoost Regressor",
+  "top_features_importance": [
+    {
+      "feature": "make_cat_BMW",
+      "importance": 0.1568
+    },
+    {
+      "feature": "make_cat_Infiniti",
+      "importance": 0.0759
+    },
+    {
+      "feature": "make_cat_Mercedes-Benz",
+      "importance": 0.0755
+    },
+    {
+      "feature": "make_cat_Audi",
+      "importance": 0.066
+    },
+    {
+      "feature": "body_cat_Hatchback",
+      "importance": 0.0587
+    },
+    {
+      "feature": "odometer",
+      "importance": 0.0549
+    },
+    {
+      "feature": "make_cat_Lexus",
+      "importance": 0.0506
+    },
+    {
+      "feature": "body_cat_Sedan",
+      "importance": 0.0328
+    },
+    {
+      "feature": "body_cat_Pickup/Truck",
+      "importance": 0.0326
+    },
+    {
+      "feature": "make_cat_Kia",
+      "importance": 0.0322
+    },
+    {
+      "feature": "year",
+      "importance": 0.0321
+    },
+    {
+      "feature": "make_cat_Other",
+      "importance": 0.0272
+    },
+    {
+      "feature": "make_cat_Cadillac",
+      "importance": 0.0242
+    },
+    {
+      "feature": "make_cat_Acura",
+      "importance": 0.0217
+    },
+    {
+      "feature": "body_cat_SUV",
+      "importance": 0.02
+    }
+  ],
+  "categories": {
+    "makes": [
+      "Acura",
+      "Audi",
+      "BMW",
+      "Buick",
+      "Cadillac",
+      "Chevrolet",
+      "Chrysler",
+      "Dodge",
+      "Ford",
+      "GMC",
+      "Honda",
+      "Hyundai",
+      "Infiniti",
+      "Jeep",
+      "Kia",
+      "Lexus",
+      "Lincoln",
+      "Mazda",
+      "Mercedes-Benz",
+      "Mitsubishi",
+      "Nissan",
+      "Pontiac",
+      "Subaru",
+      "Toyota",
+      "Volkswagen"
+    ],
+    "bodies": [
+      "Convertible",
+      "Coupe",
+      "Hatchback",
+      "Minivan",
+      "Other",
+      "Pickup/Truck",
+      "SUV",
+      "Sedan",
+      "Wagon"
+    ],
+    "states": [
+      "AZ",
+      "CA",
+      "CO",
+      "FL",
+      "GA",
+      "IL",
+      "IN",
+      "MA",
+      "MD",
+      "MI",
+      "MN",
+      "MO",
+      "NC",
+      "NE",
+      "NJ",
+      "NV",
+      "NY",
+      "OH",
+      "PA",
+      "SC",
+      "TN",
+      "TX",
+      "VA",
+      "WA",
+      "WI"
+    ],
+    "transmissions": [
+      "automatic",
+      "manual"
+    ]
+  },
+  "benchmarks": {
+    "avg_selling_price": 13147.194397195779,
+    "median_selling_price": 11800.0,
+    "avg_odometer": 68958.91369313323,
+    "avg_condition": 29.897209874918946,
+    "price_std": 9404.350343618396
+  }
+}

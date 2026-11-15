@@ -1,0 +1,410 @@
+{
+  "kpis": {
+    "total_records_dataset": 558837,
+    "cleaned_records": 540618,
+    "avg_car_price": 13903.85,
+    "min_car_price": 500.0,
+    "max_car_price": 230000.0,
+    "q1_total_revenue": 4704658042.0,
+    "q1_total_orders": 346161,
+    "q1_units_sold": 346161,
+    "q1_avg_order_value": 13590.95,
+    "q1_top_make": "Ford",
+    "q1_top_make_volume": 60053,
+    "q1_top_body": "Sedan",
+    "q1_top_body_volume": 153996
+  },
+  "monthly_performance": [
+    {
+      "month_num": 1,
+      "month_name": "January",
+      "volume": 138846,
+      "revenue": 1867960381.0,
+      "avg_price": 13453.47,
+      "avg_odometer": 67891.2,
+      "avg_condition": 30.7
+    },
+    {
+      "month_num": 2,
+      "month_name": "February",
+      "volume": 161507,
+      "revenue": 2215460939.0,
+      "avg_price": 13717.43,
+      "avg_odometer": 67904.9,
+      "avg_condition": 30.9
+    },
+    {
+      "month_num": 3,
+      "month_name": "March",
+      "volume": 45808,
+      "revenue": 621236722.0,
+      "avg_price": 13561.75,
+      "avg_odometer": 68762.5,
+      "avg_condition": 30.7
+    }
+  ],
+  "body_distribution": {
+    "Sedan": 153996,
+    "SUV": 89262,
+    "Pickup/Truck": 29760,
+    "Minivan": 20549,
+    "Hatchback": 15865,
+    "Coupe": 12102,
+    "Wagon": 10150,
+    "Other": 7944
+  },
+  "body_percentages": {
+    "Sedan": 44.5,
+    "SUV": 25.8,
+    "Pickup/Truck": 8.6,
+    "Minivan": 5.9,
+    "Hatchback": 4.6,
+    "Coupe": 3.5,
+    "Wagon": 2.9,
+    "Other": 2.3
+  },
+  "state_distribution": {
+    "FL": 51518,
+    "CA": 45246,
+    "PA": 32408,
+    "TX": 27827,
+    "GA": 22456,
+    "NJ": 17600,
+    "NC": 15537,
+    "TN": 14816,
+    "IL": 14042,
+    "OH": 13321
+  },
+  "top_models": [
+    {
+      "model": "Altima",
+      "volume": 12748,
+      "avg_price": 11637.04,
+      "revenue": 148348929.0
+    },
+    {
+      "model": "F-150",
+      "volume": 9285,
+      "avg_price": 18886.43,
+      "revenue": 175360510.0
+    },
+    {
+      "model": "Fusion",
+      "volume": 8370,
+      "avg_price": 12629.85,
+      "revenue": 105711851.0
+    },
+    {
+      "model": "Escape",
+      "volume": 7690,
+      "avg_price": 14244.05,
+      "revenue": 109536728.0
+    },
+    {
+      "model": "Camry",
+      "volume": 7242,
+      "avg_price": 11177.99,
+      "revenue": 80950994.0
+    },
+    {
+      "model": "Focus",
+      "volume": 6881,
+      "avg_price": 9647.26,
+      "revenue": 66382813.0
+    },
+    {
+      "model": "Accord",
+      "volume": 5601,
+      "avg_price": 9965.58,
+      "revenue": 55817225.0
+    },
+    {
+      "model": "Grand Caravan",
+      "volume": 5476,
+      "avg_price": 11642.94,
+      "revenue": 63756728.0
+    },
+    {
+      "model": "Explorer",
+      "volume": 5027,
+      "avg_price": 18869.93,
+      "revenue": 94859162.0
+    },
+    {
+      "model": "3 Series",
+      "volume": 4941,
+      "avg_price": 16419.67,
+      "revenue": 81129575.0
+    }
+  ],
+  "top_makes": [
+    {
+      "make": "Ford",
+      "volume": 60053,
+      "avg_price": 14738.37,
+      "revenue": 885083273.0
+    },
+    {
+      "make": "Chevrolet",
+      "volume": 38148,
+      "avg_price": 12153.53,
+      "revenue": 463632806.0
+    },
+    {
+      "make": "Nissan",
+      "volume": 32873,
+      "avg_price": 11794.88,
+      "revenue": 387733079.0
+    },
+    {
+      "make": "Toyota",
+      "volume": 24076,
+      "avg_price": 12195.48,
+      "revenue": 293618350.0
+    },
+    {
+      "make": "Dodge",
+      "volume": 19661,
+      "avg_price": 11261.86,
+      "revenue": 221419396.0
+    },
+    {
+      "make": "Honda",
+      "volume": 17248,
+      "avg_price": 11178.72,
+      "revenue": 192810575.0
+    },
+    {
+      "make": "Hyundai",
+      "volume": 13282,
+      "avg_price": 11025.53,
+      "revenue": 146441121.0
+    },
+    {
+      "make": "BMW",
+      "volume": 12206,
+      "avg_price": 20767.35,
+      "revenue": 253486226.0
+    },
+    {
+      "make": "Kia",
+      "volume": 11402,
+      "avg_price": 11952.55,
+      "revenue": 136282975.0
+    },
+    {
+      "make": "Chrysler",
+      "volume": 10901,
+      "avg_price": 11158.05,
+      "revenue": 121633914.0
+    }
+  ],
+  "weekly_trajectory": [
+    {
+      "date": "2013-12-30",
+      "volume": 72,
+      "revenue": 804800.0,
+      "avg_price": 11177.78
+    },
+    {
+      "date": "2014-01-06",
+      "volume": 121,
+      "revenue": 2210500.0,
+      "avg_price": 18268.6
+    },
+    {
+      "date": "2014-01-13",
+      "volume": 6,
+      "revenue": 132925.0,
+      "avg_price": 22154.17
+    },
+    {
+      "date": "2014-02-10",
+      "volume": 1,
+      "revenue": 10500.0,
+      "avg_price": 10500.0
+    },
+    {
+      "date": "2014-12-29",
+      "volume": 1585,
+      "revenue": 24338825.0,
+      "avg_price": 15355.73
+    },
+    {
+      "date": "2015-01-05",
+      "volume": 28205,
+      "revenue": 362226604.0,
+      "avg_price": 12842.64
+    },
+    {
+      "date": "2015-01-12",
+      "volume": 37696,
+      "revenue": 513839228.0,
+      "avg_price": 13631.13
+    },
+    {
+      "date": "2015-01-19",
+      "volume": 37881,
+      "revenue": 503032245.0,
+      "avg_price": 13279.28
+    },
+    {
+      "date": "2015-01-26",
+      "volume": 33367,
+      "revenue": 462866154.0,
+      "avg_price": 13871.97
+    },
+    {
+      "date": "2015-02-02",
+      "volume": 38659,
+      "revenue": 517788058.0,
+      "avg_price": 13393.73
+    },
+    {
+      "date": "2015-02-09",
+      "volume": 46202,
+      "revenue": 639872551.0,
+      "avg_price": 13849.46
+    },
+    {
+      "date": "2015-02-16",
+      "volume": 40185,
+      "revenue": 538585538.0,
+      "avg_price": 13402.65
+    },
+    {
+      "date": "2015-02-23",
+      "volume": 36373,
+      "revenue": 517713392.0,
+      "avg_price": 14233.45
+    },
+    {
+      "date": "2015-03-02",
+      "volume": 37756,
+      "revenue": 515735025.0,
+      "avg_price": 13659.68
+    },
+    {
+      "date": "2015-03-09",
+      "volume": 7673,
+      "revenue": 100664172.0,
+      "avg_price": 13119.27
+    },
+    {
+      "date": "2015-03-16",
+      "volume": 163,
+      "revenue": 2131825.0,
+      "avg_price": 13078.68
+    },
+    {
+      "date": "2015-03-23",
+      "volume": 172,
+      "revenue": 2088350.0,
+      "avg_price": 12141.57
+    },
+    {
+      "date": "2015-03-30",
+      "volume": 44,
+      "revenue": 617350.0,
+      "avg_price": 14030.68
+    }
+  ],
+  "ranked_vehicles": [
+    {
+      "id": "TXN-1000",
+      "make": "BMW",
+      "model": "3 Series",
+      "year": 2014,
+      "body": "Sedan",
+      "state": "CA",
+      "condition": 45.0,
+      "odometer": 1331,
+      "price": 30000.0,
+      "date": "2015-01-15"
+    },
+    {
+      "id": "TXN-1001",
+      "make": "Volvo",
+      "model": "S60",
+      "year": 2015,
+      "body": "Sedan",
+      "state": "CA",
+      "condition": 41.0,
+      "odometer": 14282,
+      "price": 27750.0,
+      "date": "2015-01-29"
+    },
+    {
+      "id": "TXN-1002",
+      "make": "Chevrolet",
+      "model": "Camaro",
+      "year": 2014,
+      "body": "Convertible",
+      "state": "CA",
+      "condition": 3.0,
+      "odometer": 4809,
+      "price": 17500.0,
+      "date": "2015-01-20"
+    },
+    {
+      "id": "TXN-1003",
+      "make": "Ford",
+      "model": "Fusion",
+      "year": 2015,
+      "body": "Sedan",
+      "state": "CA",
+      "condition": 2.0,
+      "odometer": 5559,
+      "price": 12000.0,
+      "date": "2015-01-13"
+    },
+    {
+      "id": "TXN-1004",
+      "make": "BMW",
+      "model": "5 Series",
+      "year": 2014,
+      "body": "Sedan",
+      "state": "CA",
+      "condition": 29.0,
+      "odometer": 25969,
+      "price": 30000.0,
+      "date": "2015-02-03"
+    },
+    {
+      "id": "TXN-1005",
+      "make": "BMW",
+      "model": "6 Series",
+      "year": 2014,
+      "body": "Convertible",
+      "state": "CA",
+      "condition": 38.0,
+      "odometer": 10736,
+      "price": 65000.0,
+      "date": "2015-01-06"
+    },
+    {
+      "id": "TXN-1006",
+      "make": "Volvo",
+      "model": "XC70",
+      "year": 2015,
+      "body": "Wagon",
+      "state": "CA",
+      "condition": 42.0,
+      "odometer": 16506,
+      "price": 32500.0,
+      "date": "2015-02-26"
+    },
+    {
+      "id": "TXN-1007",
+      "make": "Volvo",
+      "model": "XC70",
+      "year": 2015,
+      "body": "Wagon",
+      "state": "CA",
+      "condition": 48.0,
+      "odometer": 12725,
+      "price": 32500.0,
+      "date": "2015-02-12"
+    }
+  ]
+}

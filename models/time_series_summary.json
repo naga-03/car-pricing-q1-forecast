@@ -1,0 +1,423 @@
+{
+  "metrics": {
+    "ts_r2": 0.9982,
+    "ts_mae": 444.1,
+    "resid_std": 721.6
+  },
+  "q1_projected_volume": 107902,
+  "q1_monthly_breakdown": {
+    "January": 38310,
+    "February": 35856,
+    "March": 33736
+  },
+  "scenarios": {
+    "baseline": 107902,
+    "conservative": 97111,
+    "optimistic": 118692
+  },
+  "forecast_weeks": [
+    {
+      "week_start": "2015-07-20",
+      "month": 7,
+      "week_of_year": 30,
+      "is_q1": 0,
+      "forecast_volume": 4497,
+      "lower_80": 3574,
+      "upper_80": 5421,
+      "lower_95": 3083,
+      "upper_95": 5912,
+      "conservative": 4048,
+      "optimistic": 4947
+    },
+    {
+      "week_start": "2015-07-27",
+      "month": 7,
+      "week_of_year": 31,
+      "is_q1": 0,
+      "forecast_volume": 11203,
+      "lower_80": 10279,
+      "upper_80": 12126,
+      "lower_95": 9788,
+      "upper_95": 12617,
+      "conservative": 10082,
+      "optimistic": 12323
+    },
+    {
+      "week_start": "2015-08-03",
+      "month": 8,
+      "week_of_year": 32,
+      "is_q1": 0,
+      "forecast_volume": 11520,
+      "lower_80": 10596,
+      "upper_80": 12444,
+      "lower_95": 10106,
+      "upper_95": 12934,
+      "conservative": 10368,
+      "optimistic": 12672
+    },
+    {
+      "week_start": "2015-08-10",
+      "month": 8,
+      "week_of_year": 33,
+      "is_q1": 0,
+      "forecast_volume": 11090,
+      "lower_80": 10166,
+      "upper_80": 12014,
+      "lower_95": 9676,
+      "upper_95": 12504,
+      "conservative": 9981,
+      "optimistic": 12199
+    },
+    {
+      "week_start": "2015-08-17",
+      "month": 8,
+      "week_of_year": 34,
+      "is_q1": 0,
+      "forecast_volume": 10554,
+      "lower_80": 9630,
+      "upper_80": 11477,
+      "lower_95": 9140,
+      "upper_95": 11968,
+      "conservative": 9498,
+      "optimistic": 11609
+    },
+    {
+      "week_start": "2015-08-24",
+      "month": 8,
+      "week_of_year": 35,
+      "is_q1": 0,
+      "forecast_volume": 8434,
+      "lower_80": 7511,
+      "upper_80": 9358,
+      "lower_95": 7020,
+      "upper_95": 9849,
+      "conservative": 7591,
+      "optimistic": 9278
+    },
+    {
+      "week_start": "2015-08-31",
+      "month": 8,
+      "week_of_year": 36,
+      "is_q1": 0,
+      "forecast_volume": 8434,
+      "lower_80": 7511,
+      "upper_80": 9358,
+      "lower_95": 7020,
+      "upper_95": 9849,
+      "conservative": 7591,
+      "optimistic": 9278
+    },
+    {
+      "week_start": "2015-09-07",
+      "month": 9,
+      "week_of_year": 37,
+      "is_q1": 0,
+      "forecast_volume": 8434,
+      "lower_80": 7511,
+      "upper_80": 9358,
+      "lower_95": 7020,
+      "upper_95": 9849,
+      "conservative": 7591,
+      "optimistic": 9278
+    },
+    {
+      "week_start": "2015-09-14",
+      "month": 9,
+      "week_of_year": 38,
+      "is_q1": 0,
+      "forecast_volume": 8434,
+      "lower_80": 7511,
+      "upper_80": 9358,
+      "lower_95": 7020,
+      "upper_95": 9849,
+      "conservative": 7591,
+      "optimistic": 9278
+    },
+    {
+      "week_start": "2015-09-21",
+      "month": 9,
+      "week_of_year": 39,
+      "is_q1": 0,
+      "forecast_volume": 8434,
+      "lower_80": 7511,
+      "upper_80": 9358,
+      "lower_95": 7020,
+      "upper_95": 9849,
+      "conservative": 7591,
+      "optimistic": 9278
+    },
+    {
+      "week_start": "2015-09-28",
+      "month": 9,
+      "week_of_year": 40,
+      "is_q1": 0,
+      "forecast_volume": 8434,
+      "lower_80": 7511,
+      "upper_80": 9358,
+      "lower_95": 7020,
+      "upper_95": 9849,
+      "conservative": 7591,
+      "optimistic": 9278
+    },
+    {
+      "week_start": "2015-10-05",
+      "month": 10,
+      "week_of_year": 41,
+      "is_q1": 0,
+      "forecast_volume": 8434,
+      "lower_80": 7511,
+      "upper_80": 9358,
+      "lower_95": 7020,
+      "upper_95": 9849,
+      "conservative": 7591,
+      "optimistic": 9278
+    }
+  ],
+  "historical_series": [
+    {
+      "date": "2013-12-30",
+      "volume": 72,
+      "avg_price": 11177.78,
+      "total_revenue": 804800.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2014-01-06",
+      "volume": 121,
+      "avg_price": 18268.6,
+      "total_revenue": 2210500.0,
+      "is_q1": 1
+    },
+    {
+      "date": "2014-01-13",
+      "volume": 6,
+      "avg_price": 22154.17,
+      "total_revenue": 132925.0,
+      "is_q1": 1
+    },
+    {
+      "date": "2014-02-10",
+      "volume": 1,
+      "avg_price": 10500.0,
+      "total_revenue": 10500.0,
+      "is_q1": 1
+    },
+    {
+      "date": "2014-12-15",
+      "volume": 16213,
+      "avg_price": 14209.69,
+      "total_revenue": 230381734.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2014-12-22",
+      "volume": 10940,
+      "avg_price": 11822.14,
+      "total_revenue": 129334164.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2014-12-29",
+      "volume": 15492,
+      "avg_price": 12352.16,
+      "total_revenue": 191359634.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2015-01-05",
+      "volume": 28205,
+      "avg_price": 12842.64,
+      "total_revenue": 362226604.0,
+      "is_q1": 1
+    },
+    {
+      "date": "2015-01-12",
+      "volume": 37696,
+      "avg_price": 13631.13,
+      "total_revenue": 513839228.0,
+      "is_q1": 1
+    },
+    {
+      "date": "2015-01-19",
+      "volume": 37881,
+      "avg_price": 13279.28,
+      "total_revenue": 503032245.0,
+      "is_q1": 1
+    },
+    {
+      "date": "2015-01-26",
+      "volume": 33367,
+      "avg_price": 13871.97,
+      "total_revenue": 462866154.0,
+      "is_q1": 1
+    },
+    {
+      "date": "2015-02-02",
+      "volume": 38659,
+      "avg_price": 13393.73,
+      "total_revenue": 517788058.0,
+      "is_q1": 1
+    },
+    {
+      "date": "2015-02-09",
+      "volume": 46202,
+      "avg_price": 13849.46,
+      "total_revenue": 639872551.0,
+      "is_q1": 1
+    },
+    {
+      "date": "2015-02-16",
+      "volume": 40185,
+      "avg_price": 13402.65,
+      "total_revenue": 538585538.0,
+      "is_q1": 1
+    },
+    {
+      "date": "2015-02-23",
+      "volume": 36373,
+      "avg_price": 14233.45,
+      "total_revenue": 517713392.0,
+      "is_q1": 1
+    },
+    {
+      "date": "2015-03-02",
+      "volume": 37756,
+      "avg_price": 13659.68,
+      "total_revenue": 515735025.0,
+      "is_q1": 1
+    },
+    {
+      "date": "2015-03-09",
+      "volume": 7673,
+      "avg_price": 13119.27,
+      "total_revenue": 100664172.0,
+      "is_q1": 1
+    },
+    {
+      "date": "2015-03-16",
+      "volume": 163,
+      "avg_price": 13078.68,
+      "total_revenue": 2131825.0,
+      "is_q1": 1
+    },
+    {
+      "date": "2015-03-23",
+      "volume": 172,
+      "avg_price": 12141.57,
+      "total_revenue": 2088350.0,
+      "is_q1": 1
+    },
+    {
+      "date": "2015-03-30",
+      "volume": 167,
+      "avg_price": 13618.26,
+      "total_revenue": 2274250.0,
+      "is_q1": 1
+    },
+    {
+      "date": "2015-04-06",
+      "volume": 221,
+      "avg_price": 12853.85,
+      "total_revenue": 2840700.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2015-04-13",
+      "volume": 243,
+      "avg_price": 10975.1,
+      "total_revenue": 2666950.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2015-04-20",
+      "volume": 363,
+      "avg_price": 11525.22,
+      "total_revenue": 4183655.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2015-04-27",
+      "volume": 406,
+      "avg_price": 9175.83,
+      "total_revenue": 3725388.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2015-05-04",
+      "volume": 637,
+      "avg_price": 8831.75,
+      "total_revenue": 5625826.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2015-05-11",
+      "volume": 1214,
+      "avg_price": 9211.68,
+      "total_revenue": 11182978.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2015-05-18",
+      "volume": 15841,
+      "avg_price": 14932.69,
+      "total_revenue": 236548706.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2015-05-25",
+      "volume": 34049,
+      "avg_price": 14602.88,
+      "total_revenue": 497213483.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2015-06-01",
+      "volume": 39604,
+      "avg_price": 15148.94,
+      "total_revenue": 599958598.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2015-06-08",
+      "volume": 23236,
+      "avg_price": 15043.14,
+      "total_revenue": 349542319.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2015-06-15",
+      "volume": 35749,
+      "avg_price": 15145.4,
+      "total_revenue": 541432923.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2015-06-22",
+      "volume": 234,
+      "avg_price": 16189.32,
+      "total_revenue": 3788300.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2015-06-29",
+      "volume": 681,
+      "avg_price": 17346.92,
+      "total_revenue": 11813253.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2015-07-06",
+      "volume": 785,
+      "avg_price": 16405.68,
+      "total_revenue": 12878461.0,
+      "is_q1": 0
+    },
+    {
+      "date": "2015-07-13",
+      "volume": 11,
+      "avg_price": 19959.09,
+      "total_revenue": 219550.0,
+      "is_q1": 0
+    }
+  ]
+}

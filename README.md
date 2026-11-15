@@ -1,94 +1,145 @@
-# Car Pricing Q1 Forecast Analysis
+# MyDash: AutoPrice AI – Car Pricing & Q1 Sales Intelligence Platform
 
-## Project Overview
-This project analyzes car pricing data to understand sales trends and develop a predictive model for Q1 (January-March) car sales forecasting. The analysis includes data exploration, visualization, and machine learning modeling.
+A commercial-grade analytics platform unifying **Car Price Prediction using Machine Learning** and **Q1 Sales Analysis using Data Analytics**. Features a modern dark-themed dashboard inspired by the **MyDash** design system, an electric blue accent palette, real-time vehicle valuation, and multi-step demand forecasting.
 
-## Dataset
-- **File**: `car_pricing_dataset.csv`
-- **Records**: 558,837 initial records (472,325 after cleaning)
-- **Columns**: 16 features including year, make, model, condition, odometer, MMR, selling price, etc.
-- **Size**: ~84 MB
+---
 
-## Key Features
-- Comprehensive data cleaning and preprocessing
-- Exploratory Data Analysis (EDA) with visualizations
-- Q1 sales trend analysis
-- Linear Regression model for price prediction (R² = 0.96)
-- Outlier detection and analysis
+## 🎨 MyDash Design System & Aesthetics
 
-## Notebook Structure
-1. **Data Loading & Cleaning**: Load dataset from local file, clean and preprocess data
-2. **Exploratory Analysis**: Visualize sales patterns, top brands, models, colors, states
-3. **Q1 Analysis**: Focus on January-March sales trends and patterns
-4. **Predictive Modeling**: Linear regression model for price forecasting
-5. **Summary**: Comprehensive analysis summary and recommendations
+* **Color Palette**:
+  * Main Background: `#151B1D` (Deep near-black charcoal)
+  * Navigation Bar: `#20282B` (Dark charcoal header with active blue indicator line)
+  * Cards & Panels: `#222A2D` with subtle `#303A3E` borders and subtle shadows
+  * Primary Accent: `#3979F6` (Electric Blue)
+  * Success & Positive Metrics: `#27B879` (Vibrant Emerald Green)
+  * Secondary Accents: `#20B9C9` (Cyan), `#9861D5` (Purple), `#EAB308` (Gold)
+  * Typography: Crisp `#F1F4F6` primary text with `#929DA5` secondary text
+* **Design Language**:
+  * Top horizontal navigation with active item curve-underline
+  * Compact statistic KPI panels arranged horizontally
+  * Smooth electric blue area charts with custom floating dark tooltips
+  * Donut charts with clean percentage readouts
+  * Radial inventory velocity gauge
+  * Ranked data tables with alternating row backgrounds and hover highlight
+  * Fully responsive across desktop, laptop, tablet, and mobile
 
-## Model Performance
-- **R² Score**: 0.9604 (96.04%)
-- **Features**: condition, odometer, mmr, sale_year
-- **Performance**: Excellent predictive capability for car price forecasting
+---
 
-## Requirements
-Install the required packages using:
+## 🚀 Key Modules & Pages
+
+### 1. 📊 Dashboard Overview
+Displays key metrics from both analytics projects:
+* **Car Price Prediction KPIs**:
+  * Total Dataset Records: **558,837** (540,618 cleaned)
+  * Average Car Price: **$13,904** (Median: $11,800)
+  * Price Range: **$500 – $230,000**
+  * Model Accuracy ($R^2$): **0.8029** (MAE: **$2,505.06**)
+* **Q1 Sales Analysis KPIs**:
+  * Total Q1 Revenue: **$4.70 Billion** ($4,704,658,042)
+  * Total Q1 Transactions: **346,161 units**
+  * Average Order Value: **$13,591**
+  * Peak Month: **February (161,507 units)**
+  * Top Make & Body: **Ford (60,053 units)** & **Sedan (153,996 units)**
+* **Visual Widgets**:
+  * Weekly Revenue & Sales Trajectory (Area Chart in Electric Blue)
+  * Top-Selling Vehicle Models (Ranked table with avatars and volume)
+  * Progress Target Card (78% Target Met) & Profit Card ($4.70B Q1 Turnover)
+  * Body Style Distribution (Donut Chart) & Radial Velocity Gauge (68%)
+  * Monthly Sales Performance (Electric Blue Bar Chart)
+
+### 2. 🚗 Car Price Intelligence (Prediction Engine)
+Dedicated machine learning valuation interface:
+* **Features Supported**: Brand/Make, Body Style, Year (1995–2016), Market State, Transmission, Odometer Mileage, Wholesale Condition Score (1–50), and optional MMR Benchmark toggle.
+* **Valuation Card**:
+  * Large valuation readout in bold typography
+  * Calibrated confidence interval ($\pm\text{MAE}$ margin)
+  * Market Tier badge (`Premium / Luxury Segment` vs `Average Market Segment`)
+* **Model Reliability Scorecard**:
+  * Intrinsic XGBoost ($R^2=0.8029$, $\text{MAE}=\$2,505$, $\text{RMSE}=\$4,108$, $\text{MAPE}=25.89\%$)
+  * Benchmark Model with MMR ($R^2=0.9713$, $\text{MAE}=\$924.31$)
+
+### 3. 📈 Q1 Sales Analysis
+Dedicated Business Intelligence dashboard:
+* **Interactive Filters**: Filter by Month Window (All Q1, Jan, Feb, Mar), Body Style, and Region/State.
+* **4-Grid Visualizations**:
+  1. Q1 Revenue Trajectory (Area Chart)
+  2. Monthly Performance Comparison (Bar Chart)
+  3. Product / Category Performance (Donut Chart)
+  4. Regional Sales Distribution (Top 10 States Bar Chart)
+* **Ranked Vehicles Table** with search and live calculations.
+* **Strategic Business Insights & Findings** cards.
+
+### 4. 📑 Reports & ⚙️ Settings
+* One-click JSON and CSV summary report downloads.
+* Full machine learning audit log.
+* Platform configurations (currency, default model, themes).
+
+---
+
+## ⚡ Quickstart & Execution (Using `py`)
+
+### 1. Launch the Dashboard
+Run the platform using the Python launcher script:
+
+```powershell
+.\py.ps1 run_app.py
+```
+*(Or double-click [run_dashboard.bat](file:///c:/Users/nagal/Downloads/projects/car-pricing-q1-forecast-1/run_dashboard.bat))*.
+
+The dashboard will open automatically in your browser at:  
+👉 **`http://localhost:8501`**  
+👉 **API Docs**: `http://localhost:8501/docs`
+
+### 2. Run the Full Test Suite
+Execute the 17 unit and API integration tests:
+
+```powershell
+.\py.ps1 -m pytest tests -v
+```
+
+### 3. (Optional) Run Streamlit Legacy Mode
+If you prefer the multi-tab Streamlit dashboard:
+
+```powershell
+.\py.ps1 run_app.py --streamlit
+```
+
+---
+
+## 🐳 Docker & Container Deployment
+
+### Build and Run with Docker
 ```bash
-pip install -r requirements.txt
+# Build production image
+docker build -t mydash-autoprice:latest .
+
+# Run container on port 8501
+docker run -d -p 8501:8501 --name mydash_platform mydash-autoprice:latest
 ```
 
-Or manually:
+Open `http://localhost:8501` in your browser.
+
+### Docker Compose
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+docker compose up -d --build
 ```
 
-## Usage
+---
 
-### Local Execution (Recommended)
-1. **Clone or download** this repository
-2. **Ensure** `car_pricing_dataset.csv` is in the same directory as the notebook
-3. **Install dependencies**: `pip install -r requirements.txt`
-4. **Launch Jupyter**: `jupyter notebook`
-5. **Open** `car_pricing_q1_forecast.ipynb` and run all cells
+## 🌐 Production REST API Endpoints
 
-### Google Colab
-1. Upload the notebook to Google Colab
-2. Upload `car_pricing_dataset.csv` to your Google Drive
-3. Uncomment the Google Drive mount cell (Cell 1)
-4. Update the dataset path in Cell 3 to your Google Drive path
-5. Run all cells
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| `GET` | `/` | Serves the MyDash single-page analytics application |
+| `GET` | `/api/health` | Service health status and model load verification |
+| `GET` | `/api/overview` | Dynamic KPIs, area chart data, and top models from both projects |
+| `POST` | `/api/predict` | Computes vehicle fair-market valuation and confidence interval |
+| `GET` | `/api/q1-analysis` | Filterable Q1 sales metrics by month, body style, and state |
+| `GET` | `/api/categories` | Returns supported makes, body styles, and states |
+| `GET` | `/api/reports/summary` | Structured summary payload for report downloads |
+| `GET` | `/docs` | Interactive Swagger UI API documentation |
 
-## Key Findings
-- MMR (Manheim Market Report) is the strongest predictor of selling price
-- Top-selling brands: Ford, Chevrolet, Toyota, BMW
-- Most popular colors: White, Black, Silver
-- Q1 shows consistent sales patterns across months
-- Model achieves 96% accuracy in price prediction
+---
 
-## Recommendations
-1. Use the regression model for competitive pricing
-2. Focus inventory on top-selling brands and models
-3. Monitor MMR trends as primary price indicator
-4. Consider adding categorical features for model enhancement
-
-## Project Structure
-```
-q1 analysis/
-├── car_pricing_q1_forecast.ipynb  # Main analysis notebook
-├── car_pricing_dataset.csv         # Dataset (84 MB, tracked with Git LFS)
-├── requirements.txt                # Python dependencies
-├── README.md                       # Project documentation
-├── LICENSE                         # MIT License
-├── .gitignore                      # Git ignore rules
-└── .gitattributes                  # Git LFS configuration
-```
-
-## Dataset Note
-The dataset file (`car_pricing_dataset.csv`) is ~84 MB and is tracked using Git LFS for efficient version control.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-**MIT License Summary:**
-- ✅ Free to use for personal and commercial projects
-- ✅ Can modify and distribute
-- ✅ Only requires attribution (copyright notice)
-- ✅ No warranty provided
-
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
